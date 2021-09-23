@@ -281,10 +281,20 @@ background: white;
 .Kontent-block-cart-like{
 position: absolute;
 right: 0%;
-font-size: 20px;
+font-size: 23px;
 color: #D2DAE0;
 z-index: 9;
+cursor: pointer;
+transition: 0.4s;
 }
+.Kontent-block-cart-like:hover{
+color:#A5B0B6;
+}
+.Kontent-block-cart-like:active{
+color:#30C884;
+}
+
+
 .Kontent-block-cart-img{
 position: relative;
 top: 0;
@@ -471,6 +481,7 @@ padding-top: 9px;
 padding-bottom: 10px;
 border-bottom: solid 3px #F5F5F5;
 transition: 0.4s;
+cursor: pointer;
 }
 
 .Kontent3-block-control-li:active{
@@ -480,7 +491,7 @@ z-index: 1;
 
 .Kontent3-blocks-carts{
 position: relative;
-top: p0;
+top:0;
 right: 0%;
 width: 270px;
 height: 373px;
@@ -521,10 +532,18 @@ z-index: 1;
 position: absolute;
 top: 0px;
 right: 0%;
-font-size: 20px;
+font-size: 23px;
 color: #D2DAE0;
 z-index: 9;
 margin: 16px 16px;
+cursor: pointer;
+transition: 0.4s;
+}
+.Kontent3-blocks-carts-like:hover{
+color:#A5B0B6;
+}
+.Kontent3-blocks-carts-like:active{
+color:#30C884;
 }
 .Kontent3-blocks-carts-img{
  position: relative;
@@ -540,11 +559,26 @@ right: 0%;
 font-size: 13px;
 color: #BFC8DC;
 }
-.ontent3-blocks-carts-stroka{
-font-size: 16px;
+.Kontent3-blocks-carts-stroka{
+position: relative;
+top: 0;
+right: 0%;
+height: 40px;
+font-size: 14px;
 }
 .Kontent3-blocks-carts-pay{
 font-size: 23px;
+margin: -4px;
+}
+.skidka-price::before{
+content:"990 Р";
+position: absolute;
+bottom: 11px;
+left: 8%;
+font-size: 14px;
+font-weight: 300;
+text-decoration: line-through;
+color: #C6C6C6;
 }
 .Kontent3-blocks-carts-knopka{
 position: relative;
@@ -566,4 +600,236 @@ margin-right: 13px;
 .Kontent3-blocks-carts-knopka:focus{
 outline: none;
 box-shadow: none;
+}
+
+/*______________________________________________________________________________________________________*/
+#Kontent4{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: auto;
+background: url(../img/Fixcase.jpg) no-repeat 50% 50%/130em;
+margin-top: 50px;
+}
+.Kontent4-block{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: 100%;
+}
+.Kontent4-blocks{
+position: relative;
+top: 0;
+right: 0%;
+width: 37%;
+display: inline-block;
+}
+.Kontent4-blocks-stroka{
+font-size: 20px;
+}
+.Kontent4-blocks-title{
+font-size: 35px;
+}
+.Kontent4-blocks-spisok{
+position: relative;
+top: 0;
+right: 0%;
+list-style: none;
+padding: 0px;
+}
+.Kontent4-li-blocks{
+position: relative;
+top: 0;
+right: 0%;
+width: 310px;
+display: inline-block;
+margin: 10px;
+}
+.Kontent4-blocks-li{
+position: relative;
+top: 0;
+right: 0%;
+text-align: left;
+font-size: 19px;
+font-weight: 500;
+padding-bottom: 15px;
+}
+.Kontent4-blocks-li::after{
+content:"";
+position: absolute;
+top: 5px;
+left: -9%;
+width: 20px;
+height: 20px;
+background: url(../img/serclgalka.png) no-repeat 50% 50%/100%;
+z-index: 1;
+}
+.Kontent4-blocks-silka{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: 50px;
+}
+.Kontent4-blocks-knopka{
+position: relative;
+width: 262px;
+height: 50px;
+font-size: 16px;
+background: #78D4AB;
+border-radius: 55px;
+padding: 10px;
+}
+.Kontent4-blocks-img{
+position: relative;
+width: 100%;
+height: 100%;
+background: url(../img/Woman.png) no-repeat 50% 50%/25em;
+}
+
+/*______________________________________________________________________________________________________*/
+#Kontent5{
+position: relative;
+top: p0;
+right: 0%;
+width: 100%;
+height: auto;
+margin-top: 50px;
+padding-bottom: 50px;
+}
+.Kontent5-block-carusel-header{
+position: relative;
+width: 100%;
+height: 40px;
+margin-bottom:20px ;
+}
+.Kontent5-block-carusel-header-title {
+font-size: 28px;
+}
+.Kontent5-block-carusel-header-control{
+position: relative;
+top: p0;
+right: 0%;
+z-index: 1;
+}
+.Kontent5-carusel-control-prev-icon,.Kontent5-carusel-control-next-icon{
+ color: #B1BCD6;
+}
+.Kontent5-block-carusel{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+}
+.Kontent5-carusel-blocks{
+position: relative;
+top: 0;
+right: 0%;
+width: 270px;
+height: 380px;
+border-radius: 16px;
+display: inline-block;
+background:white;
+margin: 10px;
+}
+.Kontent5-carusel-blocks-img-back{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+.Kontent5-carusel-blocks-title-zag{
+ position: relative;
+ font-size:24px;
+ color: #3D474D;
+ z-index: 1;
+}
+.Kontent5-carusel-blocks-stroka-new{
+position:absolute;
+top: 0;
+left: 0%;
+width:31%;
+padding:4px;
+border-radius: 0px 7px 7px 0px;
+background: #FFDD63;
+color: black;
+text-align: center;
+font-size: 13px;
+margin-top: 45px;
+z-index: 1;
+}
+.Kontent5-carusel-blocks-like{
+position: absolute;
+top: 0px;
+right: 0%;
+font-size: 23px;
+color: #D2DAE0;
+z-index: 9;
+margin: 16px 16px;
+cursor: pointer;
+transition: 0.4s;
+}
+.Kontent5-carusel-blocks-like:hover{
+ color:#A5B0B6;
+}
+.Kontent5-carusel-blocks-like:active{
+color:#30C884;
+}
+.Kontent5-carusel-blocks-img{
+ position: relative;
+ top: 0px;
+ right: 0%;
+ width: 175px;
+ padding-top: 30px;
+ padding-bottom: 20px;
+}
+.Kontent5-carusel-blocks-title{
+position: relative;
+top: 0;
+right: 0%;
+font-size: 13px;
+color: #BFC8DC;
+}
+.Kontent5-carusel-blocks-stroka{
+position: relative;
+top: 0;
+right: 0%;
+height: 40px;
+font-size: 14px;
+}
+.Kontent5-carusel-blocks-pay{
+font-size: 23px;
+margin: -4px;
+}
+.Kontent5-carusel-blocks-knopka{
+position: relative;
+top: 0;
+right: 0%;
+width: 123px;
+height: 40px;
+background: #78D4AB;
+color: white;
+border-radius: 35px 5px 5px 5px;
+transition: 0.4s;
+float: right;
+margin-right: 13px;
+}
+.Kontent5-carusel-blocks-knopka:focus{
+outline: none;
+box-shadow: none;
+}
+.Kontent5-carusel-blocks-knopka:hover{
+background: #78D4AB;
+ color: whitesmoke;    
+}
+
+/*______________________________________________________________________________________________________*/
+footer{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: auto;
+background: #171717;
 }
