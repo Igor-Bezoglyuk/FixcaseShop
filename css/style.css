@@ -357,6 +357,122 @@ width: 30px;
 height: 30px;
 background: url(../img/icons8-search.png)no-repeat 50% 50%/100%;
 }
+
+
+
+
+.header-modal-back{
+position: absolute;
+top:0;
+right: 0%;
+width: 335px;
+height:auto;
+display: none;
+background: white;
+float: right;
+z-index: 999;
+padding: 20px;
+border-radius: 0px 0px 0px 20px;
+box-shadow: 0px 14px 21px -21px black;
+margin-top: 110px;
+}
+.header-modal-okno{
+position: relative;
+top: 0;
+right: 0%;
+width: 90%;
+background: white;
+border-radius: 16px;
+padding-top: 20px;
+}
+.Header-modal-spisok{
+list-style: none;
+padding: 0px 30px;
+}
+.header-modal-li{
+position: relative;
+top: 0;
+right: 0%;
+width:max-content;
+font-size: 16px;
+font-weight: 300;
+display: block;
+margin-bottom:30px;
+}
+
+
+.modal-imgs::before{
+content:"";
+position:absolute;
+top: -14px;
+left: -2em;
+width: 22px;
+height: 50px;
+background: url(../img/House.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs:hover::before{
+background: url(../img/greenHouse.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs2::before{
+content:"";
+position:absolute;
+top: -14px;
+left: -2em;
+width: 22px;
+height: 50px;
+background: url(../img/PencilLine.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs2:hover::before{
+background: url(../img/greenPencilLine.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs3::before{
+content:"";
+position:absolute;
+top: -14px;
+left: -2em;
+width: 22px;
+height: 50px;
+background: url(../img/Package.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs3:hover::before{
+background: url(../img/greenPackage.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs4::before{
+content:"";
+position:absolute;
+top: -14px;
+left: -2em;
+width: 22px;
+height: 50px;
+background: url(../img/Histori.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs4:hover::before{
+background: url(../img/greenHistori.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs5::before{
+content:"";
+position:absolute;
+top: -14px;
+left: -2em;
+width: 22px;
+height: 50px;
+background: url(../img/SignIn.svg) no-repeat 50% 50%/100%;
+}
+.modal-imgs5:hover::before{
+background: url(../img/greenSignIn.svg) no-repeat 50% 50%/100%;
+}
+
+
+
+.header-modal-silka{
+position: relative;
+text-decoration: none;
+color: #545454;
+transition: 0.4s;
+}
+.header-modal-silka:hover{
+color: #30C884;
+}
 /*______________________________________________________________________________________________________*/
 
 article{
@@ -1135,6 +1251,12 @@ display: none;
 /*______________________________________________________________________________________________________*/
 @media only screen and (max-width:999px){
 body{position: absolute;}
+
+header{position: fixed; z-index: 999; background: white; box-shadow: 0px -4px 20px -9px black;}
+
+article{adding-top: 114px;}
+
+
 .header-content{display: none;}
 .Header-content-phone{display: block;}
 
