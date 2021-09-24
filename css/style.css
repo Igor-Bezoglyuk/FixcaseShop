@@ -340,6 +340,7 @@ cursor: pointer;
 position: relative;
 top: 0;
 right: 0%;
+display: none;
 }
 .Header-forma-serch{
 border:  solid 1px grey;
@@ -1177,4 +1178,6 @@ body{position: absolute;}
 180deg);}
 .footer-blocks{padding-top:0px;}
 .footer-blocks-logo{margin: 15px 0px;}
+
+.Header-forma-phone{display: block;}
 }
