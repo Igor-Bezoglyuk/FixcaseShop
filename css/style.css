@@ -336,6 +336,26 @@ font-weight: 500;
 color: #30C884;
 cursor: pointer;
 }
+.Header-forma-phone{
+position: relative;
+top: 0;
+right: 0%;
+}
+.Header-forma-serch{
+border:  solid 1px grey;
+}
+.Search-icon-phone{
+position: relative;
+}
+.Search-icon-phone::after{
+content: "";
+position: absolute;
+top: -5px;
+right: 4%;
+width: 30px;
+height: 30px;
+background: url(../img/icons8-search.png)no-repeat 50% 50%/100%;
+}
 /*______________________________________________________________________________________________________*/
 
 article{
