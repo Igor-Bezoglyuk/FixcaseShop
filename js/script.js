@@ -3,6 +3,12 @@ jQuery( document ).ready(function(){
     $("#Open").click(function(){
     $(".header-modal-back").toggle(400); 
  });
+    $(".login").click(function(){
+    $(".Registr-block-modal:hidden").show(); 
+ });
+    $(".close").click(function(){
+    $(".Registr-block-modal").hide(); 
+ });
 });
 });
 
